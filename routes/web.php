@@ -12,16 +12,19 @@
 */
 
 Route::get('/', function () {
+    return view('frontend.index');
+});
+Route::get('tes', function(){
     return view('welcome');
 });
 Route::get('masuk', function(){
     return view('login');
 });
-Route::get('admin', function(){
+Route::get('administrator', function(){
     return view('admin');
 });
 
-//route untuk register, login, forgot password
+// route untuk register, login, forgot password
 Auth::routes(); 
 // untuk memanipulasi register
 Route::match(["GET", "POST"], "register", function(){

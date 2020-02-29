@@ -16,17 +16,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Fajar Siagian">
-  <title>Sistem Sekolah Lite - Dashboard</title>
+  <title>Dashboard - Sistem Sekolah Lite</title>
   <!-- Favicon -->
-  <link rel="icon" href={{ asset("admin/assets/img/brand/favicon.png") }} type="image/png">
+  <link rel="icon" href={{ asset("admin_theme/assets/img/brand/favicon.png") }} type="image/png">
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   <!-- Icons -->
-  <link rel="stylesheet" href={{ asset("admin/assets/vendor/nucleo/css/nucleo.css") }} type="text/css">
-  <link rel="stylesheet" href={{ asset("admin/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css") }} type="text/css">
+  <link rel="stylesheet" href={{ asset("admin_theme/assets/vendor/nucleo/css/nucleo.css") }} type="text/css">
+  <link rel="stylesheet" href={{ asset("admin_theme/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css") }} type="text/css">
   <!-- Page plugins -->
   <!-- Argon CSS -->
-  <link rel="stylesheet" href={{ asset("admin/assets/css/argon.css?v=1.2.0") }} type="text/css">
+  <link rel="stylesheet" href={{ asset("admin_theme/assets/css/argon.css?v=1.2.0") }} type="text/css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
       <!-- Brand -->
       <div class="sidenav-header  align-items-center">
         <a class="navbar-brand" href="javascript:void(0)">
-          <img src={{ asset("admin/assets/img/brand/blue.png") }} class="navbar-brand-img" alt="...">
+          <img src={{ asset("admin_theme/assets/img/brand/blue.png") }} class="navbar-brand-img" alt="...">
         </a>
       </div>
       <div class="navbar-inner">
@@ -45,104 +45,79 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="examples/dashboard.html">
+              <a class="nav-link active" href="#">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="nav-link-text">Dashboard</span>
               </a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
-                  <i class="ni ni-ungroup text-orange"></i>
-                  <span class="nav-link-text">Examples</span>
-                </a>
-                <div class="collapse" id="navbar-examples" style="">
-                  <ul class="nav nav-sm flex-column">
-                    <li class="nav-item">
-                      <a href="../../pages/examples/pricing.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> P </span>
-                        <span class="sidenav-normal"> Pricing </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/login.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> L </span>
-                        <span class="sidenav-normal"> Login </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/register.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> R </span>
-                        <span class="sidenav-normal"> Register </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/lock.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> L </span>
-                        <span class="sidenav-normal"> Lock </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/timeline.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> T </span>
-                        <span class="sidenav-normal"> Timeline </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/profile.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> P </span>
-                        <span class="sidenav-normal"> Profile </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="../../pages/examples/rtl-support.html" class="nav-link">
-                        <span class="sidenav-mini-icon"> RP </span>
-                        <span class="sidenav-normal"> RTL Support </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="examples/icons.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-planet text-orange"></i>
-                <span class="nav-link-text">Icons</span>
+                <span class="nav-link-text">Sekolah</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/map.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-pin-3 text-primary"></i>
-                <span class="nav-link-text">Google</span>
+                <span class="nav-link-text">Kelas</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/profile.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-single-02 text-yellow"></i>
-                <span class="nav-link-text">Profile</span>
+                <span class="nav-link-text">Guru</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/tables.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-bullet-list-67 text-default"></i>
-                <span class="nav-link-text">Tables</span>
+                <span class="nav-link-text">Pegawai</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/login.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-key-25 text-info"></i>
-                <span class="nav-link-text">Login</span>
+                <span class="nav-link-text">Murid</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/register.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-circle-08 text-pink"></i>
-                <span class="nav-link-text">Register</span>
+                <span class="nav-link-text">Keuangan</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/upgrade.html">
+              <a class="nav-link" href="#">
                 <i class="ni ni-send text-dark"></i>
-                <span class="nav-link-text">Upgrade</span>
+                <span class="nav-link-text">Pengaturan</span>
               </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
+                <i class="ni ni-ungroup text-orange"></i>
+                <span class="nav-link-text">SubMenu</span>
+              </a>
+              <div class="collapse" id="navbar-examples" style="">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <span class="nav-link-text">Sub Menu 1</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <span class="nav-link-text">Sub Menu 2</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <span class="nav-link-text">Sub Menu 3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -201,7 +176,7 @@
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-1.jpg") }} class="avatar rounded-circle">
+                        <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-1.jpg") }} class="avatar rounded-circle">
                       </div>
                       <div class="col ml--2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -220,7 +195,7 @@
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-2.jpg") }} class="avatar rounded-circle">
+                        <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-2.jpg") }} class="avatar rounded-circle">
                       </div>
                       <div class="col ml--2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -239,7 +214,7 @@
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-3.jpg") }} class="avatar rounded-circle">
+                        <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-3.jpg") }} class="avatar rounded-circle">
                       </div>
                       <div class="col ml--2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -258,7 +233,7 @@
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-4.jpg") }} class="avatar rounded-circle">
+                        <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-4.jpg") }} class="avatar rounded-circle">
                       </div>
                       <div class="col ml--2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -277,7 +252,7 @@
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
-                        <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-5.jpg") }} class="avatar rounded-circle">
+                        <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-5.jpg") }} class="avatar rounded-circle">
                       </div>
                       <div class="col ml--2">
                         <div class="d-flex justify-content-between align-items-center">
@@ -348,7 +323,7 @@
               <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="media align-items-center">
                   <span class="avatar avatar-sm rounded-circle">
-                    <img alt="Image placeholder" src={{ asset("admin/assets/img/theme/team-4.jpg") }}>
+                    <img alt="Image placeholder" src={{ asset("admin_theme/assets/img/theme/team-4.jpg") }}>
                   </span>
                   <div class="media-body  ml-2  d-none d-lg-block">
                     <span class="mb-0 text-sm  font-weight-bold">John Snow</span>
@@ -807,16 +782,16 @@
   </div>
   <!-- Argon Scripts -->
   <!-- Core -->
-  <script src={{ asset("admin/assets/vendor/jquery/dist/jquery.min.js") }}></script>
-  <script src={{ asset("admin/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js") }}></script>
-  <script src={{ asset("admin/assets/vendor/js-cookie/js.cookie.js") }}></script>
-  <script src={{ asset("admin/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js") }}></script>
-  <script src={{ asset("admin/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/jquery/dist/jquery.min.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/js-cookie/js.cookie.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js") }}></script>
   <!-- Optional JS -->
-  <script src={{ asset("admin/assets/vendor/chart.js/dist/Chart.min.js") }}></script>
-  <script src={{ asset("admin/assets/vendor/chart.js/dist/Chart.extension.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/chart.js/dist/Chart.min.js") }}></script>
+  <script src={{ asset("admin_theme/assets/vendor/chart.js/dist/Chart.extension.js") }}></script>
   <!-- Argon JS -->
-  <script src={{ asset("admin/assets/js/argon.js?v=1.2.0") }}></script>
+  <script src={{ asset("admin_theme/assets/js/argon.js?v=1.2.0") }}></script>
 </body>
 
 </html>
